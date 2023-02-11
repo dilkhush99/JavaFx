@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.accord.controller.About">
+   <children>
+      <Label alignment="TOP_CENTER" layoutX="550.0" layoutY="109.0" prefHeight="38.0" prefWidth="109.0" text="About" underline="true" wrapText="true" AnchorPane.rightAnchor="621.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="label" layoutX="189.0" layoutY="160.0" prefHeight="258.0" prefWidth="894.0" wrapText="true" AnchorPane.leftAnchor="189.0" AnchorPane.rightAnchor="197.0">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

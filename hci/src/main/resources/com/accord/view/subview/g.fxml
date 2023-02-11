@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.accord.controller.GController">
+   <children>
+      <Slider fx:id="slider" blockIncrement="0.0" layoutX="395.0" layoutY="251.0" majorTickUnit="0.1" minorTickCount="1" prefHeight="65.0" prefWidth="631.0" showTickLabels="true" snapToTicks="true" style="-fx-background-color: grey;" AnchorPane.leftAnchor="395.0" AnchorPane.rightAnchor="254.0" />
+      <ProgressIndicator fx:id="progressindicator" layoutX="516.0" layoutY="356.0" prefHeight="100.0" prefWidth="347.0" progress="0.0" AnchorPane.bottomAnchor="344.0" AnchorPane.leftAnchor="516.0" AnchorPane.rightAnchor="417.0" AnchorPane.topAnchor="356.0" />
+      <Label layoutX="292.0" layoutY="143.0" prefHeight="49.0" prefWidth="133.0" text="Live Update" textFill="#282121" underline="true" AnchorPane.leftAnchor="292.0" AnchorPane.rightAnchor="855.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="progressbar" layoutX="411.0" layoutY="511.0" prefHeight="65.0" prefWidth="614.0" progress="0.0" style="-fx-background-color: grey;" AnchorPane.leftAnchor="411.0" AnchorPane.rightAnchor="255.0" />
+      <Label layoutX="268.0" layoutY="273.0" text="Slider" AnchorPane.leftAnchor="222.0" AnchorPane.rightAnchor="903.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="222.0" layoutY="392.0" prefHeight="28.0" prefWidth="155.0" text="Progress Indicator" AnchorPane.leftAnchor="222.0" AnchorPane.rightAnchor="903.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="245.0" layoutY="523.0" prefHeight="28.0" prefWidth="109.0" text="Progress Bar" AnchorPane.leftAnchor="245.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      
+   </children>
+</AnchorPane>
